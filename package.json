@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "npm run stylelint:fix && npm run prettier:write",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "stylelint:fix": "stylelint --fix styles/**/*.css"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
