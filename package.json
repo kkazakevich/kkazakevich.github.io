@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm run stylelint:fix && npm run prettier:write",
+    "build": "npm run prettier:write && npm run stylelint:fix",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
     "stylelint:fix": "stylelint --fix styles/**/*.css"

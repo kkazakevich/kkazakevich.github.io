@@ -139,10 +139,6 @@ p {
   }
 }
 
-.error-here span {
-  border-bottom: 1px solid #e35530;
-}
-
 .home-body {
   background-image: url("../images/light.png");
   background-position: center;
@@ -190,14 +186,4 @@ p {
 
 .error-h1 {
   text-align: center;
-}
-
-.error-here {
-  padding: 12px;
-}
-
-@media screen and (width >= 1024px) {
-  .error-here {
-    padding: 24px;
-  }
 }
