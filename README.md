@@ -1,4 +1,4 @@
-# Sentient
+# KAZAKEVICH
 
 Small landing page for AI with theme change to light and dark.
 
